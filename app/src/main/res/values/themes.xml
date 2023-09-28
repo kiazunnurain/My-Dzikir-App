@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyDzikirAppThemes" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!--        secondary brand color-->
+        <item name="colorSecondary">@color/green</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!--        status bar color-->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="PagiActivity" parent="Theme.MyDzikirAppThemes">
+        <item name="android:statusBarColor">@color/morning_green</item>
+        <item name="colorPrimary">@color/morning_green</item>
+        <item name="title">Dzikir Pagi</item>
+    </style>
+
+    <style name="PetangActivity" parent="Theme.MyDzikirAppThemes">
+        <item name="android:statusBarColor">@color/afternoon_green</item>
+        <item name="colorPrimary">@color/afternoon_green</item>
+        <item name="title">Dzikir Petang</item>
+    </style>
+</resources>
